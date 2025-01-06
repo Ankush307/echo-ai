@@ -1,11 +1,13 @@
 import React from 'react'
 import CustomButton from '../common/CustomButton'
+import Header from '../common/Header'
 
 const Hero = () => {
     return (
-        <div className='flex items-center justify-center bg-cover bg-no-repeat bg-center bg-heroBgImg'>
-            <div className="container mx-auto py-[240px]">
-                <div className="flex flex-wrap w-full relative">
+        <div className='flex flex-col items-center bg-cover bg-no-repeat bg-center bg-heroBgImg mt-[-1px] '>
+            <div className="container mx-auto">
+                <Header />
+                <div className="flex flex-wrap w-full relative  py-[240px]">
                     <div className="w-8/12 flex flex-col items-center justify-center">
                         <h1 className='text-7xl !leading-[84.4px] font-bold text-white text-center'>Innovate, Automate, Accelerate </h1>
                         <p className='text-xl !leading-[30px] text-center text-white py-6'>Next Gen AI Automation to Scale Your Business.</p>
