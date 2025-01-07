@@ -8,9 +8,9 @@ import { TESTINOMIALS_LIST } from "../utils/helper";
 
 const Testimonials = () => {
     return (
-        <div className=" p-4 bg-wood-smoke pb-[56px]">
+        <div className=" p-4 bg-wood-smoke sm:pb-[56px] pb-12">
             <div className="max-w-[1150px] mx-auto">
-                <h2 className="text-white text-center text-[48px] font-semibold leading-[57.6px] pb-[56px] ">Testinomials</h2>
+                <h2 className="text-white text-center lg:text-[48px] sm:text-[30px] text-[30px] font-semibold leading-[57.6px] sm:pb-[56px] pb-3">Testinomials</h2>
                 <Swiper className="mySwiper"
                     slidesPerView={3}
                     spaceBetween={30}
@@ -43,14 +43,14 @@ const Testimonials = () => {
                     }}>
                     {TESTINOMIALS_LIST.map((obj, i) => (
                         <SwiperSlide key={i}>
-                            <div className="w-full min-w-[364px] slider-bg-color rounded-t-3xl pt-6 px-6 pb-10">
+                            <div className="w-full sm:min-w-[364px] max-w-[360px] slider-bg-color rounded-t-3xl pt-6 px-6 pb-10 mx-auto">
                                 <h3 className="text-white text-2xl font-medium leading-[28.8px]">{obj.heading}</h3>
                                 <p className={`text-white text-base font-normal leading-6 opacity-80 pt-2 max-md:max-w-none ${i === 1 ? "max-w-[325px]" : "max-w-[316px]"}`}>{obj.description}</p>
                                 <div className={`flex items-center gap-2  ${i === 2 ? "mt-6" : "mt-[47px]"}`}>
                                     <img src={obj.user} alt="user" className="w-[60px] h-[60px]" />
                                     <div className="flex flex-col">
-                                        <p className="text-white text-start font-medium text-2xl">{obj.useName}</p>
-                                        <p className="text-white font-medium text-xl leading-6"> {obj.userDesignation}</p>
+                                        <p className="text-white text-start font-medium sm:text-2xl text-xl">{obj.useName}</p>
+                                        <p className="text-white font-medium text-lg sm:text-xl leading-6"> {obj.userDesignation}</p>
                                     </div>
                                 </div>
                             </div>

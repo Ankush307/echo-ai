@@ -6,7 +6,7 @@ const Footer = () => {
     const year = new Date().getFullYear();
     return (
         <footer>
-            <div className="bg-wood-smoke px-5 pt-[356px] max-xl:pt-[300px] max-lg:pt-[200px] max-md:pt-[150px] -mt-1 max-sm:pt-[96px]">
+            <div className="bg-wood-smoke px-5 pt-[356px] max-xl:pt-[300px] max-lg:pt-[200px] max-md:pt-[150px] -mt-1 max-sm:pt-[70px]">
                 <div className="max-w-[1140px] mx-auto flex justify-between max-sm:flex-col max-sm:justify-center max-sm:items-center max-sm:gap-10">
                     <a href="/"><img className="max-w-[150px]" src='./assets/images/png/footer-logo.png' alt="footerLogo" /></a>
                     <div className="flex flex-col gap-3.5">

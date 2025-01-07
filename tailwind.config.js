@@ -9,6 +9,7 @@ module.exports = {
                 'wood-smoke': '#01000B',
                 'dark-blue': '#1A1A23',
                 'gray': '#B3B2B6',
+                'sky-blue': '#377DF3',
             },
             backgroundImage: {
                 heroBgImg: "url('/public/assets/images/webp/hero-bg-img.webp')",
