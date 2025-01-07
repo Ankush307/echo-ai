@@ -4,7 +4,7 @@ export const TESTINOMIALS_LIST = [
     description: "“I’m genuinely impressed with how the AI nurtures conversations and handles appointment setting. It adapts quickly, is 100% human like and has consistently outperformed expectations.”",
     user: "./assets/images/png/user-one-img.png",
     useName: "Miguel Jordan,",
-    userDesignation: "Appointment Setting Coach",
+    userPosition: "Appointment Setting Coach",
   },
   {
     heading: "Game Changer!",
@@ -12,7 +12,7 @@ export const TESTINOMIALS_LIST = [
       "“ECHO AI has really revolutionized our operations. My team never has to chase down resources anymore—it’s all instantly accessible, streamlining our workflow and freeing up time.”",
     user: "./assets/images/png/user-two-img.png",
     useName: "Rachel Lettice,",
-    userDesignation: "Creative Director",
+    userPosition: "Creative Director",
   },
   {
     heading: "This is Gold!",
@@ -20,7 +20,7 @@ export const TESTINOMIALS_LIST = [
       "“The autonomous sales flow is extremely effective, to say the least. I was able to replace our full-time VA, cutting that expense completely  while maintaining efficiency and our standard high performing results.”",
     user: "./assets/images/png/user-three-img.png",
     useName: "Mike Lotz,",
-    userDesignation: "CEO (MREM)",
+    userPosition: "CEO (MREM)",
   },
   {
     heading: "Game Changer!",
@@ -28,7 +28,7 @@ export const TESTINOMIALS_LIST = [
       "“ECHO AI has really revolutionized our operations. My team never has to chase down resources anymore—it’s all instantly accessible, streamlining our workflow and freeing up time.”",
     user: "./assets/images/png/user-two-img.png",
     useName: "Rachel Lettice,",
-    userDesignation: "Creative Director",
+    userPosition: "Creative Director",
   }
 ];
 

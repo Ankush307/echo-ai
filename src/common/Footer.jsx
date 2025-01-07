@@ -20,9 +20,9 @@ const Footer = () => {
                         <a className="text-base leading-[20px] max-sm:leading-[16px] text-gray max-sm:text-center transition-all duration-300 ease-linear hover:text-sky-blue cursor-pointer" href="mailto:info@echoai.ai">info@echoai.ai</a>
                         <p className="text-base leading-[20px] max-sm:leading-[16px] pt-8 text-white max-sm:text-sm max-sm:text-center"> Send Us An E-mail</p>
                         <div className="flex gap-3 pt-[18px]">
-                            <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.linkedin.com/feed/"><LinkedinIcon /></a>
-                            <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.instagram.com/"><InstagramIcon /></a>
-                            <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="www.facebook.com"><FaceBookIcon /></a>
+                            <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.linkedin.com/feed/"><img src="./assets/images/svg/linkdin-img.svg" alt="linkdin" /></a>
+                            <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.instagram.com/"><img src="./assets/images/svg/insta-img.svg" alt="insta" /></a>
+                            <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.facebook.com/"><img src="./assets/images/svg/facebook-img.svg" alt="facebook" /></a>
                         </div>
                     </div>
                     <div className="flex justify-between sm:hidden gap-12">
@@ -37,9 +37,9 @@ const Footer = () => {
                             <a className="text-base leading-[20px] max-sm:leading-[16px] text-gray transition-all duration-300 ease-linear max-sm:text-center hover:text-sky-blue cursor-pointer" href="mailto:info@echoai.ai">info@echoai.ai</a>
                             <p className="text-base leading-[20px] max-sm:leading-[16px] pt-8 text-white max-sm:text-sm max-sm:text-center"> Send Us An E-mail</p>
                             <div className="flex gap-3 pt-[18px]">
-                                <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.linkedin.com/feed/"><LinkedinIcon /></a>
-                                <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.instagram.com/"><InstagramIcon /></a>
-                                <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.facebook.com/"><FaceBookIcon /></a>
+                                <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.linkedin.com/feed/"><img src="./assets/images/svg/linkdin-img.svg" alt="linkdin" /></a>
+                                <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.instagram.com/"><img src="./assets/images/svg/insta-img.svg" alt="insta" /></a>
+                                <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.facebook.com/"><img src="./assets/images/svg/facebook-img.svg" alt="facebook" /></a>
                             </div>
                         </div>
                     </div>

@@ -50,7 +50,7 @@ const Testimonials = () => {
                                     <img src={obj.user} alt="user" className="w-[60px] h-[60px]" />
                                     <div className="flex flex-col">
                                         <p className="text-white text-start font-medium sm:text-2xl text-xl">{obj.useName}</p>
-                                        <p className="text-white font-medium text-lg sm:text-xl leading-6"> {obj.userDesignation}</p>
+                                        <p className="text-white font-medium text-lg sm:text-xl leading-6"> {obj.userPosition}</p>
                                     </div>
                                 </div>
                             </div>
