@@ -61,8 +61,8 @@ export const FAQ_DATA_LIST = [
   {
     heading: "Sounds good, so how do I get started? ",
     subHeading:
-      "AI automation leverages artificial intelligence to perform tasks traditionally requiring human intelligence, such as learning, data analysis, and decision-making. In a business context, it offers limitless potential, from optimizing operational efficiency to enhancing customer experience. It’s like having a digital assistant that works 24/7, processing information and making decisions based on data and learned experiences.",
-  },
+      "AI automation leverages artificial intelligence to perform tasks traditionally requiring human intelligence, such as learning, data analysis, and decision-making. In a business context, it offers limitless potential, from optimizing operational efficiency to enhancing customer experience. It’s like having a digital assistant that works 24/7, processing information and making decisions based on data and learned experiences."
+  }
 ];
 
 export const NAVBAR_LIST = [
@@ -70,7 +70,7 @@ export const NAVBAR_LIST = [
   { name: "Solutions", path: "/solution" },
   { name: "Benefits", path: "/benefits" },
   { name: "Testimonials", path: "/testimonials" },
-  { name: "FAQs", path: "/faq" },
+  { name: "FAQs", path: "/faq" }
 ];
 
 export const FOOTER_LIST = [
@@ -78,22 +78,22 @@ export const FOOTER_LIST = [
   "Solutions",
   "Benefits",
   "Testimonials",
-  "FAQs",
+  "FAQs"
 ];
 
 export const RESULTS_LIST = [
   {
     heading: "99%",
-    subHeading: "Of all businesses see results with AI",
+    subHeading: "Of all businesses see results with AI"
   },
 
   {
     heading: "$15T",
-    subHeading: "Projected global AI market cap by 2030",
+    subHeading: "Projected global AI market cap by 2030"
   },
 
   {
     heading: "3.5X",
-    subHeading: "More likely to outperform competitors with AI",
-  },
+    subHeading: "More likely to outperform competitors with AI"
+  }
 ];
