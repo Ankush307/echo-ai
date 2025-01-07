@@ -39,7 +39,7 @@ const Footer = () => {
                             <div className="flex gap-3 pt-[18px]">
                                 <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.linkedin.com/feed/"><LinkedinIcon /></a>
                                 <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.instagram.com/"><InstagramIcon /></a>
-                                <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="www.facebook.com"><FaceBookIcon /></a>
+                                <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.facebook.com/"><FaceBookIcon /></a>
                             </div>
                         </div>
                     </div>
