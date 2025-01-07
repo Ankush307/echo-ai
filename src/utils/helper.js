@@ -23,12 +23,12 @@ export const TESTINOMIALS_LIST = [
     userDesignation: "CEO (MREM)",
   },
   {
-    heading: "Huge Potential!",
+    heading: "Game Changer!",
     description:
-      "“I’m genuinely impressed with how the AI nurtures conversations and handles appointment setting. It adapts quickly, is 100% human like and has consistently outperformed expectations.”",
-    user: "./assets/images/png/user-one-img.png",
-    useName: "Miguel Jordan,",
-    userDesignation: "Appointment Setting Coach",
+      "“ECHO AI has really revolutionized our operations. My team never has to chase down resources anymore—it’s all instantly accessible, streamlining our workflow and freeing up time.”",
+    user: "./assets/images/png/user-two-img.png",
+    useName: "Rachel Lettice,",
+    userDesignation: "Creative Director",
   }
 ];
 
@@ -41,13 +41,6 @@ export const FAQ_DATA_LIST = [
 
   {
     heading: "How can AI Automation help me scale my business?",
-    subHeading:
-      "AI automation leverages artificial intelligence to perform tasks traditionally requiring human intelligence, such as learning, data analysis, and decision-making. In a business context, it offers limitless potential, from optimizing operational efficiency to enhancing customer experience. It’s like having a digital assistant that works 24/7, processing information and making decisions based on data and learned experiences.",
-  },
-
-  {
-    heading:
-      "How does ECHO AI ensure their AI solutions are tailored to my business?",
     subHeading:
       "AI automation leverages artificial intelligence to perform tasks traditionally requiring human intelligence, such as learning, data analysis, and decision-making. In a business context, it offers limitless potential, from optimizing operational efficiency to enhancing customer experience. It’s like having a digital assistant that works 24/7, processing information and making decisions based on data and learned experiences.",
   },

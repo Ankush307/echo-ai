@@ -12,12 +12,12 @@ const Footer = () => {
                     <div className="flex flex-col gap-3.5 max-sm:hidden">
                         <p className="text-base leading-[20px] max-sm:leading-[16px] max-sm:text-center text-white">Quick Links</p>
                         {FOOTER_LIST.map((item, index) => (
-                            <a key={index} className="text-base leading-[20px] max-sm:text-sm max-sm:leading-[16px] text-gray hover:text-sky-blue cursor-pointer max-sm:text-center" href="/">{item}</a>
+                            <a key={index} className="text-base leading-[20px] transition-all duration-300 ease-linear max-sm:text-sm max-sm:leading-[16px] text-gray hover:text-sky-blue cursor-pointer max-sm:text-center" href="/">{item}</a>
                         ))}
                     </div>
                     <div className="flex flex-col text-white max-sm:hidden">
                         <p className="text-base leading-[20px] max-sm:leading-[16px] text-white pb-3 max-sm:text-sm max-sm:text-center">Send Us An E-mail</p>
-                        <a className="text-base leading-[20px] max-sm:leading-[16px] text-gray max-sm:text-center hover:text-sky-blue cursor-pointer" href="mailto:info@echoai.ai">info@echoai.ai</a>
+                        <a className="text-base leading-[20px] max-sm:leading-[16px] text-gray max-sm:text-center transition-all duration-300 ease-linear hover:text-sky-blue cursor-pointer" href="mailto:info@echoai.ai">info@echoai.ai</a>
                         <p className="text-base leading-[20px] max-sm:leading-[16px] pt-8 text-white max-sm:text-sm max-sm:text-center"> Send Us An E-mail</p>
                         <div className="flex gap-3 pt-[18px]">
                             <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.linkedin.com/feed/"><LinkedinIcon /></a>
@@ -29,12 +29,12 @@ const Footer = () => {
                         <div className="flex flex-col gap-3.5">
                             <p className="text-base leading-[20px] max-sm:leading-[16px] max-sm:text-center text-white">Quick Links</p>
                             {FOOTER_LIST.map((item, index) => (
-                                <a key={index} className="text-base leading-[20px] max-sm:text-sm max-sm:leading-[16px] text-gray hover:text-sky-blue cursor-pointer max-sm:text-center" href="/">{item}</a>
+                                <a key={index} className="text-base leading-[20px] max-sm:text-sm max-sm:leading-[16px] text-gray hover:text-sky-blue transition-all duration-300 ease-linear cursor-pointer max-sm:text-center" href="/">{item}</a>
                             ))}
                         </div>
                         <div className="flex flex-col text-white">
                             <p className="text-base leading-[20px] max-sm:leading-[16px] text-white pb-3 max-sm:text-sm max-sm:text-center">Send Us An E-mail</p>
-                            <a className="text-base leading-[20px] max-sm:leading-[16px] text-gray max-sm:text-center hover:text-sky-blue cursor-pointer" href="mailto:info@echoai.ai">info@echoai.ai</a>
+                            <a className="text-base leading-[20px] max-sm:leading-[16px] text-gray transition-all duration-300 ease-linear max-sm:text-center hover:text-sky-blue cursor-pointer" href="mailto:info@echoai.ai">info@echoai.ai</a>
                             <p className="text-base leading-[20px] max-sm:leading-[16px] pt-8 text-white max-sm:text-sm max-sm:text-center"> Send Us An E-mail</p>
                             <div className="flex gap-3 pt-[18px]">
                                 <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.linkedin.com/feed/"><LinkedinIcon /></a>

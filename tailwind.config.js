@@ -13,6 +13,7 @@ module.exports = {
             },
             backgroundImage: {
                 heroBgImg: "url('/public/assets/images/webp/hero-bg-img.webp')",
+                bgRobot: "url('/public/assets/images/png/robot-bg-img.png')",
             },
         },
     },

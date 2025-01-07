@@ -1,34 +1,42 @@
-.submit-btn{
+.submit-btn {
     background: linear-gradient(103.52deg, #3A3EF5 18.99%, #32C8F1 82.34%);
     transition: all 500ms linear;
 }
 
-.submit-btn:hover{
+.submit-btn:hover {
     background: linear-gradient(103.52deg, #32C8F1 18.99%, #3A3EF5 82.34%);
 }
 
-.side-border{
+.side-border {
     border: 1px solid linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
-.slider-bg-color{
+.slider-bg-color {
     background: linear-gradient(180deg, rgba(59, 40, 246, 0.22) 0%, rgba(59, 40, 246, 0) 100%);
 }
 
-.border-right{
+.border-right {
     border-right: 1px solid transparent;
     border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
     border-image-slice: 1;
 }
 
-.footer-line{
-    background-image: linear-gradient(90deg, transparent , #fff  , transparent );
-} 
+.bg-custom {
+    background: linear-gradient(103.52deg, #3A3EF5 18.99%, #32C8F1 82.34%);
+}
 
-.swiper-pagination-bullet{
+.footer-line {
+    background-image: linear-gradient(90deg, transparent, #fff, transparent);
+}
+
+.swiper-pagination-bullet {
     background-color: white !important;
 }
 
-.swiper-pagination{
+.swiper-pagination {
     padding-top: 20px;
+}
+
+.animate-bounce {
+    animation: bounce 1.7s infinite;
 }
