@@ -8,7 +8,7 @@ const Faq = () => {
         setActive(active === index ? null : index);
     };
     return (
-        <div className="bg-wood-smoke">
+        <div id='faq' className="bg-wood-smoke">
             <div className="container xl:pt-[194px] lg:pt-24 mx-auto max-xl:px-4">
                 <h2 className="text-white text-center lg:text-[48px] sm:text-[36px] text-[30px] font-semibold leading-[57.6px] xl:pb-[60px] sm:pb-5 pb-3"> FAQs</h2>
                 <div className="max-w-[1022px] flex flex-col gap-6 mx-auto">

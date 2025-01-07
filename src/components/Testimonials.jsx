@@ -8,7 +8,7 @@ import { TESTINOMIALS_LIST } from "../utils/helper";
 
 const Testimonials = () => {
     return (
-        <div className=" p-4 bg-wood-smoke max-lg:pb-[56px] max-sm:pb-12 mb-[-2px]">
+        <div id="testimonials" className="p-4 bg-wood-smoke max-lg:pb-[56px] max-sm:pb-12 mb-[-2px]">
             <div className="max-w-[1150px] mx-auto">
                 <h2 className="text-white text-center lg:text-[48px] sm:text-[30px] text-[30px] font-semibold leading-[57.6px] sm:pb-10 pb-3">Testinomials</h2>
                 <Swiper className="mySwiper"

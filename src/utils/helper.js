@@ -66,11 +66,11 @@ export const FAQ_DATA_LIST = [
 ];
 
 export const NAVBAR_LIST = [
-  { name: "About us", path: "/about" },
-  { name: "Solutions", path: "/solution" },
-  { name: "Benefits", path: "/benefits" },
-  { name: "Testimonials", path: "/testimonials" },
-  { name: "FAQs", path: "/faq" }
+  { name: "About us", path: "#about" },
+  { name: "Solutions", path: "#solution" },
+  { name: "Benefits", path: "#benefits" },
+  { name: "Testimonials", path: "#testimonials" },
+  { name: "FAQs", path: "#faq" }
 ];
 
 export const FOOTER_LIST = [

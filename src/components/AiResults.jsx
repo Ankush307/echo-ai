@@ -3,7 +3,7 @@ import { RESULTS_LIST } from '../utils/helper';
 
 const Projects = () => {
     return (
-        <div className="pt-[56px] max-lg:pt-10 max-md:pt-8 bg-wood-smoke my-[-2px] lg:pb-[160px] pb-8">
+        <div id='benefits' className="pt-[56px] max-lg:pt-10 max-md:pt-8 bg-wood-smoke my-[-2px] lg:pb-[160px] pb-8">
             <div className="max-w-[1138px] mx-auto">
                 <div className="flex max-lg:flex-wrap justify-center gap-y-10 max-md:gap-[30px]">
                     {RESULTS_LIST.map((item, index) => (

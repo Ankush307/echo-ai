@@ -4,7 +4,7 @@ import Header from '../common/Header'
 
 const Hero = () => {
     return (
-        <div className='flex flex-col items-center bg-cover bg-no-repeat bg-center bg-heroBgImg mt-[-1px] '>
+        <div id='about' className='flex flex-col items-center bg-cover bg-no-repeat bg-center bg-heroBgImg mt-[-1px] '>
             <div className="relative w-full max-w-[1920px] mx-auto">
                 <div className="container mx-auto max-xl:px-4">
                     <Header />
