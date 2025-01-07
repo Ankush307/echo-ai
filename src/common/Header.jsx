@@ -20,8 +20,8 @@ const Header = () => {
   }, [isOpen]);
   return (
     <nav className="flex items-center justify-between pt-6 max-lg:pt-5 max-sm:pt-4">
-      <a href="/"><img src="./assets/images/svg/page-logo.svg" alt="logo" className="w-full max-w-[150px] sm:max-w-[192px]" /></a>
-      <div className={`flex items-center gap-4 max-lg:flex-col max-lg:justify-center max-lg:fixed max-lg:top-0 max-lg:left-0 max-lg:w-full max-lg:h-screen max-lg:bg-black max-lg:z-40 transition-transform duration-300 ${isOpen ? "max-lg:-translate-y-0" : "max-lg:-translate-y-full"}`}>
+      <a href="/"><img src="./assets/images/svg/page-logo.svg" alt="logo" className="w-full max-w-[150px] sm:max-w-[192px] relative z-50" /></a>
+      <div className={`flex items-center gap-4 max-lg:flex-col max-lg:justify-center max-lg:fixed max-lg:top-0 max-lg:left-0 max-lg:w-full max-lg:h-screen max-lg:bg-black max-lg:z-40 transition-transform duration-300 ${isOpen ? "max-lg:-translate-x-0" : "max-lg:translate-x-full"}`}>
         <ul className="flex items-center gap-9 max-lg:flex-col max-lg:gap-6">
           {NAVBAR_LIST.map((obj, i) => (
             <li key={i} className={`${i === 6 ? "hidden" : ""}`}>
