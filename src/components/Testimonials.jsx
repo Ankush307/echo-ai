@@ -12,8 +12,8 @@ const Testimonials = () => {
             <div className="max-w-[1150px] mx-auto">
                 <h2 className="text-white text-center lg:text-[48px] sm:text-[36px] text-[30px] font-semibold leading-[57.6px] lg:pb-10 sm:pb-7 pb-3">Testimonials</h2>
                 <Swiper className="mySwiper"
-                    slidesPerView={3}
-                    spaceBetween={30}
+                    slidesPerView={1}
+                    spaceBetween={24}
                     pagination={{
                         clickable: true,
                     }}
@@ -24,21 +24,12 @@ const Testimonials = () => {
                     loop={true}
                     modules={[Pagination, Autoplay]}
                     breakpoints={{
-                        374: {
-                            slidesPerView: 1,
-                            spaceBetween: 20
-                        },
                         768: {
                             slidesPerView: 2,
-                            spaceBetween: 20,
                         },
                         1024: {
                             slidesPerView: 3,
-                            spaceBetween: 140,
-                        },
-                        1240: {
-                            slidesPerView: 3,
-                            spaceBetween: 40
+                            spaceBetween: 140
                         }
                     }}>
                     {TESTIMONAIALS_LIST.map((obj, i) => (

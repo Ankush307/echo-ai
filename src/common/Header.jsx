@@ -25,7 +25,7 @@ const Header = () => {
         <ul className="flex items-center gap-9 max-lg:flex-col max-lg:gap-6">
           {NAVBAR_LIST.map((obj, i) => (
             <li key={i} className={`${i === 6 ? "hidden" : ""}`}>
-              <a onClick={handler} href={obj.link} className="transition-all ease-linear duration-300 hover:text-sky-blue font-medium text-white">{obj.name}</a>
+              <a onClick={() => setIsOpen()} href={obj.link} className="transition-all ease-linear duration-300 hover:text-sky-blue font-medium text-white">{obj.name}</a>
             </li>
           ))}
           <li>
