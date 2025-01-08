@@ -12,10 +12,10 @@ const BackToTop = () => {
         window.addEventListener("scroll", setHendler)
     },)
     return (
-        <div>{scrollTop && (
+        <>{scrollTop && (
             <button onClick={scrollHandler} className='fixed right-[10px] bottom-[10px] z-50'><img className='size-9 animate-bounce 2xl:size-14 lg:size-12 bg-black rounded-full' src="./assets/images/png/back-to-top.png" alt="back-to-top-btn" /></button>
         )}
-        </div>
+        </>
     )
 }
 

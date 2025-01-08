@@ -6,4 +6,6 @@
 * {
     font-family: "Outfit", serif;
     scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
 }

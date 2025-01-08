@@ -1,4 +1,4 @@
-export const TESTINOMIALS_LIST = [
+export const TESTIMONAIALS_LIST = [
   {
     heading: "Huge Potential!",
     description: "“I’m genuinely impressed with how the AI nurtures conversations and handles appointment setting. It adapts quickly, is 100% human like and has consistently outperformed expectations.”",
@@ -66,19 +66,19 @@ export const FAQ_DATA_LIST = [
 ];
 
 export const NAVBAR_LIST = [
-  { name: "About us", path: "#about" },
-  { name: "Solutions", path: "#solution" },
-  { name: "Benefits", path: "#benefits" },
-  { name: "Testimonials", path: "#testimonials" },
-  { name: "FAQs", path: "#faq" }
+  { name: "About us", link: "#about" },
+  { name: "Solutions", link: "#solution" },
+  { name: "Benefits", link: "#benefits" },
+  { name: "Testimonials", link: "#testimonials" },
+  { name: "FAQs", link: "#faq" }
 ];
 
 export const FOOTER_LIST = [
-  "About us",
-  "Solutions",
-  "Benefits",
-  "Testimonials",
-  "FAQs"
+  { name: "About us", link: "#about" },
+  { name: "Solutions", link: "#solution" },
+  { name: "Benefits", link: "#benefits" },
+  { name: "Testimonials", link: "#testimonials" },
+  { name: "FAQs", link: "#faq" }
 ];
 
 export const RESULTS_LIST = [

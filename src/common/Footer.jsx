@@ -1,5 +1,5 @@
 import React from 'react'
-import { FOOTER_LIST } from '../utils/helper';
+import { FOOTER_LIST } from '../utils/helper'
 
 const Footer = () => {
     const newYear = new Date().getFullYear();
@@ -9,8 +9,10 @@ const Footer = () => {
                 <a href="/"><img className="sm:max-w-[150px] max-w-[100px]" src='./assets/images/png/footer-logo.png' alt="footerLogo" /></a>
                 <div className="flex flex-col gap-3.5 max-sm:hidden">
                     <p className="text-base leading-[20px] max-sm:leading-[16px] max-sm:text-center text-white">Quick Links</p>
-                    {FOOTER_LIST.map((item, index) => (
-                        <a key={index} className="text-base leading-[20px] transition-all duration-300 ease-linear max-sm:text-sm max-sm:leading-[16px] text-gray hover:text-sky-blue cursor-pointer max-sm:text-center" href="/">{item}</a>
+                    {FOOTER_LIST.map((obj, i) => (
+                        <li key={i} className=''>
+                            <a href={obj.link} className="text-base leading-[20px] transition-all duration-300 ease-linear max-sm:text-sm max-sm:leading-[16px] text-gray hover:text-sky-blue cursor-pointer max-sm:text-center">{obj.name}</a>
+                        </li>
                     ))}
                 </div>
                 <div className="flex flex-col text-white max-sm:hidden">
@@ -26,8 +28,10 @@ const Footer = () => {
                 <div className="flex justify-between sm:hidden gap-12">
                     <div className="flex flex-col gap-3.5">
                         <p className="text-base leading-[20px] max-sm:leading-[16px] max-sm:text-center text-white">Quick Links</p>
-                        {FOOTER_LIST.map((item, index) => (
-                            <a key={index} className="text-base leading-[20px] max-sm:text-sm max-sm:leading-[16px] text-gray hover:text-sky-blue transition-all duration-300 ease-linear cursor-pointer max-sm:text-center" href="/">{item}</a>
+                        {FOOTER_LIST.map((obj, i) => (
+                            <li key={i}>
+                                <a href={obj.link} className="text-base leading-[20px] transition-all duration-300 ease-linear max-sm:text-sm max-sm:leading-[16px] text-gray hover:text-sky-blue cursor-pointer max-sm:text-center">{obj.name}</a>
+                            </li>
                         ))}
                     </div>
                     <div className="flex flex-col text-white">

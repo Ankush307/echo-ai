@@ -24,6 +24,10 @@
     background: linear-gradient(103.52deg, #3A3EF5 18.99%, #32C8F1 82.34%);
 }
 
+.swiper{
+    padding-bottom: 83px !important;
+}
+
 .footer-line {
     background-image: linear-gradient(90deg, transparent, #fff, transparent);
 }
