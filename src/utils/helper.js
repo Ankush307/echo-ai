@@ -1,4 +1,4 @@
-export const TESTIMONAIALS_LIST = [
+export const TESTIMONIALS_LIST = [
   {
     heading: "Huge Potential!",
     description: "“I’m genuinely impressed with how the AI nurtures conversations and handles appointment setting. It adapts quickly, is 100% human like and has consistently outperformed expectations.”",

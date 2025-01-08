@@ -20,7 +20,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <img className='absolute max-sm:w-[200px] max-lg:max-w-[350px] left-0 top-[60%] sm:top-[30%] lg:top-[20%] pointer-events-none' src="./assets/images/webp/hero-side-circle.webp" alt="onClick={handler}" />
+            <img className='absolute max-sm:w-[200px] max-lg:max-w-[350px] left-0 top-[60%] sm:top-[30%] lg:top-[20%] pointer-events-none' src="./assets/images/webp/hero-side-circle.webp" alt="hero-side-circle" />
         </div>
     )
 }

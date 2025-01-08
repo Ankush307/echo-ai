@@ -21,7 +21,7 @@ const Footer = () => {
                     <p className="text-base leading-[20px] max-sm:leading-[16px] pt-8 text-white max-sm:text-sm max-sm:text-center"> Send Us An E-mail</p>
                     <div className="flex gap-3 pt-[18px]">
                         <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.linkedin.com/feed/"><img src="./assets/images/svg/linkdin-img.svg" alt="linkdin" /></a>
-                        <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.instagram.com/"><img src="./assets/images/svg/insta-img.svg" alt="insta" /></a>
+                        <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.instagram.com/"><img src="./assets/images/svg/instagram-img.svg" alt="instagram" /></a>
                         <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.facebook.com/"><img src="./assets/images/svg/facebook-img.svg" alt="facebook" /></a>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ const Footer = () => {
                         <p className="text-base leading-[20px] max-sm:leading-[16px] pt-8 text-white max-sm:text-sm max-sm:text-center"> Send Us An E-mail</p>
                         <div className="flex gap-3 pt-[18px]">
                             <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.linkedin.com/feed/"><img src="./assets/images/svg/linkdin-img.svg" alt="linkdin" /></a>
-                            <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.instagram.com/"><img src="./assets/images/svg/insta-img.svg" alt="insta" /></a>
+                            <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.instagram.com/"><img src="./assets/images/svg/instagram-img.svg" alt="instagram" /></a>
                             <a className='hover:scale-110 transition-all duration-500 ease-linear' target="_blank" href="https://www.facebook.com/"><img src="./assets/images/svg/facebook-img.svg" alt="facebook" /></a>
                         </div>
                     </div>

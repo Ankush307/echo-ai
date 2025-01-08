@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { Pagination, Autoplay } from "swiper/modules";
-import { TESTIMONAIALS_LIST } from "../utils/helper";
+import { TESTIMONIALS_LIST } from "../utils/helper";
 
 const Testimonials = () => {
     return (
@@ -30,9 +30,13 @@ const Testimonials = () => {
                         1024: {
                             slidesPerView: 3,
                             spaceBetween: 140
+                        },
+                        1240: {
+                            slidesPerView: 3,
+                            spaceBetween: 24,
                         }
                     }}>
-                    {TESTIMONAIALS_LIST.map((obj, i) => (
+                    {TESTIMONIALS_LIST.map((obj, i) => (
                         <SwiperSlide key={i}>
                             <div className="w-full sm:min-w-[364px] max-w-[360px] slider-bg-color rounded-t-3xl pt-6 px-6 pb-100 mx-auto">
                                 <h3 className="text-white text-2xl font-medium leading-[28.8px]">{obj.heading}</h3>
