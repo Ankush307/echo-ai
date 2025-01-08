@@ -29,7 +29,7 @@ const Header = () => {
             </li>
           ))}
           <li>
-            <CustomButton myClass="lg:hidden min-w-[172px] py-[13.5px]" text="Get Started" />
+            <CustomButton buttonClick={() => setIsOpen(false)} myClass="lg:hidden min-w-[172px] py-[13.5px]" text="Get Started" />
           </li>
         </ul>
       </div>
